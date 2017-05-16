@@ -1,0 +1,60 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: url("https://upload.cc/i/ZM3daW.png");
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  width: 393px;
+}
+
+
+.circle {
+  transform: rotate(400deg);
+  -webkit-transform: rotate(400deg);
+  transition: all 1s ease;
+  
+}
+
+img {
+  max-width: 70%;
+  img:center;
+  margin: 5px 60px;
+  
+}
+
+
+
+
+h1 {
+   color: black;
+   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+   text-align: center;
+   margin: 50px 30px;
+   font-size: 40px;
+	 font-weight: bold;
+	 text-align: center;
+	 text-shadow: rgba(0, 0, 0, .3) 10px 8px 10px;
+  
+}
+
+
+
+
+
+
+
+h2 {
+   color: black;
+   -webkit-text-fill-color: yellow; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+   text-align: center;
+   margin: -350px 0px;
+   font-size: 16.5px;
+	 font-weight: regular;
+	 text-align: center;
+	 text-shadow: rgba(0, 0, 0, .3) 5px 4px 5px;
+  
+}
